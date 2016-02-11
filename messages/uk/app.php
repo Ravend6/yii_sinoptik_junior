@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Home' => 'Головна',
     'Sources' => 'Джерела',
     'Create Source' => 'Создати Джерело',
     'Towns' => 'Населенi пункти',

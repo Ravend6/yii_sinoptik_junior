@@ -5,7 +5,7 @@ use yii\helpers\Url;
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-    <h1 class="page-header">Главная</h1>
+    <h1 class="page-header"><?= Yii::t('app', 'Home') ?></h1>
     <nav>
         <ul>
             <li><a href="<?= Url::to(['source/index']) ?>"><?= Yii::t('app', 'Sources') ?></a></li>

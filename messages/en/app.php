@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Home' => 'Home',
     'Sources' => 'Sources',
     'Create Source' => 'Create Source',
     'Towns' => 'Towns',
