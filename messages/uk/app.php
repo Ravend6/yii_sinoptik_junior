@@ -14,6 +14,7 @@ return [
     'Latitude' => 'Широта',
     'Longitude' => 'Довгота',
     'Temperature' => 'Температура',
+    'Source' => 'Джерело',
 
     'Kiev' => 'Київ',
     'Irpen' => 'Ирпiнь',

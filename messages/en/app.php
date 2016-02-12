@@ -14,6 +14,7 @@ return [
     'Latitude' => 'Latitude',
     'Longitude' => 'Longitude',
     'Temperature' => 'Temperature',
+    'Source' => 'Source',
 
     'Kiev' => 'Kiev',
     'Irpen' => 'Irpen',
