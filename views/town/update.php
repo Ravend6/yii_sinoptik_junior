@@ -4,6 +4,8 @@ use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
 use app\models\Source;
 use app\models\Town;
+
+$this->title = Yii::t('app', 'Update') . ' ' .  Yii::t('app', $model->name);
 ?>
 
 <div class="town-form">

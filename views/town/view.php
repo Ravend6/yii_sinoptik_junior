@@ -2,6 +2,8 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\Url;
+
+$this->title = Yii::t('app', $model->name);;
 ?>
 
 <h1><?= Yii::t('app', $model->name) ?></h1>
