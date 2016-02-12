@@ -8,6 +8,12 @@ use yii\helpers\Url;
 <p><?= Yii::t('app', 'Amount') ?> <?= $model->amount ?></p>
 <p><?= Yii::t('app', 'Latitude') ?> <?= $model->latitude ?></p>
 <p><?= Yii::t('app', 'Longitude') ?> <?= $model->longitude ?></p>
+<?php if ($model->source): ?>
+    <p>
+        <?= Yii::t('app', 'Temperature') ?>
+        <?=  $model->source->temperature > 0 ? '+' : '' ?><?= $model->source->temperature ?>
+    </p>
+<?php endif; ?>
 
 <a class="btn btn-primary" href="<?= Url::to(['town/update', 'id' => $model->id]) ?>">
     <span class="glyphicon glyphicon-pencil"></span>
